@@ -1,15 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>PlaytimeJumpers</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= csrf_meta_tags %>
+<title>PlaytimeJumpers</title>
+<%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+<%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+<%= csrf_meta_tags %>
 </head>
-<body>
-<%= image_tag("banner.png", alt: "Playtime Jumpers") %>
+<div id="main-content">
+  <body>
+  <header>
+    <div id="banner">
+      <%= image_tag("banner.png", alt: "Playtime Jumpers") %>
+    </div>
+    <div id="nav">
+    <ul>
+      <li>nav link</li>
+      <li>nav link1</li>
+      <li>nav link2</li>
+      <li>nav link3</li>
+      <li>nav link4</li>
+    </ul>
+  </div>
+  </header>
 
-<%= yield %>
+  <%= yield %>
 
-</body>
+  </body>
+</div>
 </html>
