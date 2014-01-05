@@ -12,13 +12,15 @@
     <div id="banner">
       <%= image_tag("banner.png", alt: "Playtime Jumpers") %>
     </div>
-    <ul id="nav">
+    <div id="nav">
+    <ul>
       <li>nav link</li>
       <li>nav link1</li>
       <li>nav link2</li>
       <li>nav link3</li>
       <li>nav link4</li>
     </ul>
+  </div>
   </header>
 
   <%= yield %>

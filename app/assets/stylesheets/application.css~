@@ -13,8 +13,9 @@
  */
 
 header {
+  position: relative;
   width: 100%;
-  background-color: red;
+  /*background-color: red;*/
   margin: 0 auto;
   min-height: 200px;
   /*border-style: solid;
@@ -29,7 +30,8 @@ header {
 }
 
 #nav {
-  margin: top: 250px;
+  position: absolute;
+  margin-bottom: 0px;
 }
 
 #nav ul {
@@ -56,6 +58,7 @@ body {
 
 #main-content h1 {
   font-size: 2em;
+  font-weight: bold;
   width: 75%;
   margin: 0 auto;
   padding: 3px;
