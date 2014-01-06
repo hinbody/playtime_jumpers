@@ -30,7 +30,7 @@ header {
 }
 
 #nav {
-  margin: top: 250px;
+  margin-top: 250px;
 }
 
 #nav ul {
@@ -75,11 +75,6 @@ body {
 
 #main-content ul {
   padding: 5px;
-}
-
-h3 {
-  red;
-  50px;
 }
 
 .float-left {

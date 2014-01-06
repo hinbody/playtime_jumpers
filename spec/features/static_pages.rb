@@ -8,5 +8,8 @@ feature 'Static Pages' do
   end
 
   scenario "can visit contact page" do
-    visit 'contact'
+    visit static_pages_contact_path
+
+    expect(page).to have_content('Please contact us by phone or email')
+  end
 end

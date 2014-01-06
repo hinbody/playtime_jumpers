@@ -14,6 +14,7 @@
 
 header {
   width: 100%;
+  background-color: #C4B6BB;
   /*background-color: red;*/
   margin: 0 auto;
   min-height: 200px;
@@ -29,7 +30,7 @@ header {
 }
 
 #nav {
-  margin: top: 250px;
+  margin-top: 250px;
 }
 
 #nav ul {
