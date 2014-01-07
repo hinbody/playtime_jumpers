@@ -77,11 +77,6 @@ body {
   padding: 5px;
 }
 
-h3 {
-  red;
-  50px;
-}
-
 .float-left {
   float: left;
   background-color: #C4B6BB;
