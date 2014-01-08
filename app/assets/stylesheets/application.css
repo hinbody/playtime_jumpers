@@ -14,7 +14,7 @@
 
 header {
   width: 100%;
-  background-color: #C4B6BB;
+  background-color: gray;
   /*background-color: red;*/
   margin: 0 auto;
   min-height: 200px;
@@ -43,7 +43,7 @@ header {
 }
 
 body {
-  background-color: #C4B6BB;
+  background-color: #1768B5;
 }
 
 #main-content {
@@ -55,7 +55,7 @@ body {
 }
 
 #main-content h1 {
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: bold;
   width: 75%;
   margin: 0 auto;
