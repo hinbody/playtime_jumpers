@@ -100,3 +100,11 @@ body {
 
 .cityList tr {
 }
+
+#alert {
+  background-color: red;
+}
+
+#notice {
+  background-color: green;
+}
